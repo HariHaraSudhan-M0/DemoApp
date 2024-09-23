@@ -29,11 +29,12 @@ struct ContentView: View {
                 ToolbarItem {
                     Button(action: addItem) {
                         Label("Add Item", systemImage: "plus")
+                        Text("add your item")
                     }
                 }
             }
         } detail: {
-            Text("Select an item")
+            Text("enter your details")
         }
     }
 
