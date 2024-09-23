@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  demo
-//
-//  Created by HARIHARASUDHAN M on 23/09/24.
-//
-
 import SwiftUI
 import SwiftData
 
@@ -58,3 +51,4 @@ struct ContentView: View {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
 }
+
